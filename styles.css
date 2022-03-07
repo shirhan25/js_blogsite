@@ -1,6 +1,17 @@
+
+
+
+
 body{
     background-color: #d0efff;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* .dark-mode class created */
+.dark-mode{
+background-color: #091d1e;
+/* text colour */
+  color: #aaaaaa;
 }
 
 h3{

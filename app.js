@@ -1,7 +1,17 @@
+
+
 darkModeButton = document.getElementById("dark-mode-button")
+
+
 
 handleButtonClick = function () {
     console.log("button clicked")
+    
+
+ 
+   
+ 
+
     // change the background colour and text
     body = document.body
     body.style.backgroundColor = "#091d1e"
@@ -25,4 +35,18 @@ handleButtonClick = function () {
     }
 }
 
-darkModeButton.addEventListener("click", handleButtonClick)
+
+function darkMode() {
+    //assigning to the var variable(not needed to assign it to anything), accessing the document body
+   var element = document.body;
+   //calling the class in css
+   element.classList.toggle("dark-mode");
+
+   
+   //so can just do document.body.element.classList.toggle("dark-mode");
+}
+
+
+
+//removed it as we removed the id in html
+//darkModeButton.addEventListener("click", handleButtonClick)
